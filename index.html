@@ -2,35 +2,54 @@
 <html lang="en">
 <head>
 	<title>Google</title>
+	<script src="https://kit.fontawesome.com/0ffc72c4e0.js" crossorigin="anonymous"></script>
 	<meta charset="utf-8">
 	<link rel="icon" type="image/png" href="img/google-favicon.png">
-	<script src="https://use.fontawesome.com/e8241f1df6.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
 <!-- nav bar -->
-<nav>
-	<ul>
-		<li><a href="https://about.google.com">About</li>
-		<li><a href="https://store.google.com">Store</a></li>
-		<li><a href="https://gmail.com">Gmail</a></li>
-		<li><a href="https://www.google.com/imghp?hl=en">Images</a></li>
-	</ul>
-	<form action="https://accounts.google.com">
-		<input type="submit" name="" value="Sign in">
-	</form>
-</nav>
-
+<header>
+	<nav>
+		<ul>
+			<li><a href="https://about.google.com">About</li>
+			<li><a href="https://store.google.com">Store</a></li>
+			<li><a href="https://gmail.com">Gmail</a></li>
+			<li><a href="https://www.google.com/imghp?hl=en">Images</a></li>
+		</ul>
+		<form action="https://accounts.google.com">
+			<input type="submit" name="" value="Sign in">
+		</form>
+	</nav>
+</header>
 <!-- main section logo -->
 <main>
+	<!-- google logo and search bar -->
 	<div>
 		<img src="img/google-logo.png">
-		<form action="/action-page.php">
-			<input type="text" name="Search" placeholder="">
-			<button type="submit"><i class="fas fa-search"></i></button>
+		<form method="get" action="https://www.google.com/search" id="gform">
+		<i class="fas fa-microphone"></i>
+		<input type="text" name="q" placeholder="search">
+		<button type="submit"><i class="fas fa-search"></i></button>
 		</form>
+		<!-- search now and feeling lucky buttons-->
+		<button type="submit" form="gform">Google Search</button>
+		<a href="https://google.com/doodles" class="lucky">I'm Feeling Lucky</a>
 	</div>
-	<i class="fas fa-search"></i>
+
+	<!-- germany -->
+	<p>Germany</p>
 </main>
+
+<footer>
+	<nav>
+		<ul>
+			<li><a href="https://ads.google.com/intl/es_de/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a></li>
+			<li><a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1#?modal_active=none">Business</a></li>
+			<li><a href="https://www.google.com/search/howsearchworks/?fg=1">How Search works</a></li>
+		</ul>
+	</nav>
+</footer>
 
 </body>
 </html>
