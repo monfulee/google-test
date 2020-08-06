@@ -1,5 +1,60 @@
-header ul, form{
+body{
+	font-family: 'Roboto', sans-serif;
+}
+#left{
 	list-style: none;
 	margin: 0;
 	padding: 0;
+	overflow: auto;
+	position: relative;
+	font-size: 14px;
+	font-weight: 100;
+}
+#left li{
+	float: left;
+}
+#left li a{
+	display: inline-block;
+	color: #434343;
+	text-align: center;
+	padding:7px 8px 7px 0px;
+	text-decoration: none;
+}
+#about-link{
+	margin-left: 20px;
+}
+/*right nav bar links*/
+#right{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	overflow: auto;
+	position: absolute;
+	top: 8px;
+	right: 98px;
+	font-size: 14px;
+	font-weight: 100;
+}
+#right li{
+	float: right;
+}
+#right li a{
+	display: inline-block;
+	color: #434343;
+	text-align: center;
+	padding: 7px 8px 7px 0px;
+	text-decoration: none;
+}
+/*sign in button*/
+header input{
+	position: absolute;
+	margin: 0;
+	padding: 7px 12px;
+	top:10.4px;
+	right:20px;
+	color:white;
+	background:#4285F4;
+	border:none;
+	font-size: 14px;
+
 }
