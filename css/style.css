@@ -1,6 +1,12 @@
 body{
 	font-family: 'Roboto', sans-serif;
 }
+header nav{
+	margin-top: 14px;
+}
+#sign-in{
+	margin-top: 5px;
+}
 #left{
 	list-style: none;
 	margin: 0;
@@ -26,7 +32,7 @@ body{
 /*right nav bar links*/
 #right{
 	list-style: none;
-	margin: 0;
+	margin: 7px 0 0 0;
 	padding: 0;
 	overflow: auto;
 	position: absolute;
@@ -51,7 +57,7 @@ body{
 /*sign in button*/
 header input{
 	position: absolute;
-	margin: 0;
+	margin:0;
 	padding: 7px 12px;
 	top:10.4px;
 	right:20px;
