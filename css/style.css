@@ -1,6 +1,5 @@
-.fab{
-	font-size: 100px;
-}
-.fa-facebook{
-	font-size: 100px;
+header ul, form{
+	list-style: none;
+	margin: 0;
+	padding: 0;
 }
