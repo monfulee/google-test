@@ -73,18 +73,18 @@ header input:hover{
 }
 
 /*main container*/
-main{
-	min-height: 100%;
-}
 .centered{
+	position: absolute;
+	top: 35%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 	text-align: center;
-	height: 100%;
-	padding: 10%;
-	box-sizing: border-box;
+	border: 1px solid red;
+	
 }
 
 .centered img{
-	max-width: 40%;
+	max-width: 30%;
 }
 /*germany*/
 
