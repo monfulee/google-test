@@ -5,6 +5,77 @@
 	box-sizing: border-box;
 	font-family: 'Roboto', sans-serif;
 }
+/*header nav links*/
+header nav{
+	margin-top: 14px;
+}
+#sign-in{
+	margin-top: 5px;
+}
+#left{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	overflow: auto;
+	position: relative;
+	font-size: 14px;
+	font-weight: 100;
+}
+#left li{
+	float: left;
+}
+#left li a{
+	display: inline-block;
+	color: #434343;
+	text-align: center;
+	padding:7px 8px 7px 0px;
+	text-decoration: none;
+}
+#about-link{
+	margin-left: 20px;
+}
+/*right nav bar links*/
+#right{
+	list-style: none;
+	margin: 7px 0 0 0;
+	padding: 0;
+	overflow: auto;
+	position: absolute;
+	top: 8px;
+	right: 98px;
+	font-size: 14px;
+	font-weight: 100;
+}
+#right li{
+	float: right;
+}
+#right li a{
+	display: inline-block;
+	color: #434343;
+	text-align: center;
+	padding: 7px 8px 7px 0px;
+	text-decoration: none;
+}
+#right li a:hover, #left li a:hover{
+	text-decoration: underline;
+}
+/*sign in button*/
+header input{
+	position: absolute;
+	margin:0;
+	padding: 7px 12px;
+	top:10.4px;
+	right:20px;
+	color:white;
+	background:#4285F4;
+	border:none;
+	font-size: 14px;
+}
+header input:hover{
+	opacity: 0.9;
+	cursor: pointer;
+}
+
 /*google logo*/
 
 .google-logo{
@@ -114,6 +185,36 @@
 	color: #222222;
 }
 
+/*footer*/
+/*footer*/
+.footer{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #F2F2F2;
+}
+.footer ul{
+	list-style: none;
+	margin: 0;
+	padding: 0.8% 2%;
+}
+.footer li{
+	display: inline-block;
+}
+.footer li a{
+	color: #434343;
+	text-decoration: none;
+	text-align: center;
+	padding: 5px 15px 5px 0px;
+	font-size: 13px;
+}
+#germany, .footer{
+	border-top: 1px solid #E4E4E4;
+}
+.footer li a:hover{
+	text-decoration: underline;
+}
 
 
 

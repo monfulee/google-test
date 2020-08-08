@@ -7,26 +7,49 @@
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
+<!-- nav bar -->
+<header>
+	<nav>
+		<div>
+			<ul id="left">
+			<li id="about-link"><a href="https://about.google.com">About</li>
+			<li><a href="https://store.google.com">Store</a></li>
+			</ul>
+
+			<ul id="right">
+				<li><a href="https://www.google.com/imghp?hl=en">Images</a></li>
+				<li><a href="https://gmail.com">Gmail</a></li>
+
+			</ul>
+			<form action="https://accounts.google.com">
+				<input type="submit" name="" value="Sign in" id="sign-in">
+			</form>
+		</div>
+		
+	</nav>
+</header>
+
 <!-- google logo img -->
-<div class="google-logo">
-	<img src="../img/google-logo.png">
-</div>
-<!-- google search bar -->
-<div class="container">
-	<form action="https://www.google.com/search" method="get">
-		<table class="elements-container">
-			<tr>
-				<td>
-					<a href="#" class="mic-icon" title="Google voice"><img src="../img/google-mic.png"></i></a>
-				</td>
-				<td>
-					<input type="text" name="q" class="search" id="search-bar">
-				</td>
-				<td>
-					<button class="search-icon" type="submit"><i class="fas fa-search"></i></button>
-				</td>
-			</tr>
-		</table>
+<main>
+	<div class="google-logo">
+		<img src="../img/google-logo.png">
+	</div>
+	<!-- google search bar -->
+	<div class="container">
+		<form action="https://www.google.com/search" method="get">
+			<table class="elements-container">
+				<tr>
+					<td>
+						<a href="#" class="mic-icon" title="Google voice"><img src="../img/google-mic.png"></i></a>
+					</td>
+					<td>
+						<input type="text" name="q" class="search" id="search-bar">
+					</td>
+					<td>
+						<button class="search-icon" type="submit"><i class="fas fa-search"></i></button>
+					</td>
+				</tr>
+			</table>
 		<!-- buttons -->
 		<div class="buttons-container">
 			<input type="submit" name="" value="Google Search" id="google-search">
@@ -34,6 +57,19 @@
 		</div>
 	</form>
 </div>
+</main>
+
+<!-- footer -->
+<footer>
+	<nav class="footer">
+		<ul>
+			<li><a href="https://ads.google.com/intl/es_de/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a></li>
+			<li><a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1#?modal_active=none">Business</a></li>
+			<li><a href="https://www.google.com/search/howsearchworks/?fg=1">How Search works</a></li>
+		</ul>
+	</nav>
+</footer>
+
 
 	
 
