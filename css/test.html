@@ -7,30 +7,35 @@
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
-	<!-- google logo img -->
-	<div class="google-logo">
-		<img src="../img/google-logo.png">
-	</div>
-
-
+<!-- google logo img -->
+<div class="google-logo">
+	<img src="../img/google-logo.png">
+</div>
 <!-- google search bar -->
 <div class="container">
 	<form action="https://www.google.com/search" method="get">
 		<table class="elements-container">
 			<tr>
 				<td>
-					<a href="#" class="mic-icon"><img src="../img/google-mic.png"></i></a>
+					<a href="#" class="mic-icon" title="Google voice"><img src="../img/google-mic.png"></i></a>
 				</td>
 				<td>
-					<input type="text" name="q" class="search">
+					<input type="text" name="q" class="search" id="search-bar">
 				</td>
 				<td>
-					<button class="search-icon"><i class="fas fa-search"></i></button>
+					<button class="search-icon" type="submit"><i class="fas fa-search"></i></button>
 				</td>
 			</tr>
 		</table>
+		<!-- buttons -->
+		<div class="buttons-container">
+			<input type="submit" name="" value="Google Search" id="google-search">
+			<a href="https://google.com/doodles" class="lucky">I'm Feeling Lucky</a>
+		</div>
 	</form>
 </div>
+
+	
 
 
 </body>

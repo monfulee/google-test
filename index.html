@@ -32,21 +32,33 @@
 </header>
 <!-- main section logo -->
 <main>
-	<!-- google logo and search bar -->
-	<div class="container">
-		<div class="centered">
-			<img src="img/google-logo.png">
-			<form method="get" action="https://www.google.com/search" id="gform">
-			<i class="fas fa-microphone"></i>
-			<input type="text" name="q" placeholder="search">
-			<button type="submit"><i class="fas fa-search"></i></button>
-			</form>
-			<!-- search now and feeling lucky buttons-->
-			<button type="submit" form="gform">Google Search</button>
+<!-- google logo and search bar -->
+<div class="google-logo">
+	<img src="img/google-logo.png">
+</div>
+<!-- google search bar -->
+<div class="container">
+	<form action="https://www.google.com/search" method="get">
+		<table class="elements-container">
+			<tr>
+				<td>
+					<a href="#" class="mic-icon" title="Google voice"><img src="img/google-mic.png"></i></a>
+				</td>
+				<td>
+					<input type="text" name="q" class="search" id="search-bar">
+				</td>
+				<td>
+					<button class="search-icon" type="submit"><i class="fas fa-search"></i></button>
+				</td>
+			</tr>
+		</table>
+		<!-- buttons -->
+		<div class="buttons-container">
+			<input type="submit" name="" value="Google Search" id="google-search">
 			<a href="https://google.com/doodles" class="lucky">I'm Feeling Lucky</a>
 		</div>
-	</div>
-	
+	</form>
+</div>
 
 	<!-- germany -->
 	<p id="germany">Germany</p>
